@@ -1,0 +1,3 @@
+function shakeMagic8Ball() {
+    
+}
