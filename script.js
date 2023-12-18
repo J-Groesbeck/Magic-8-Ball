@@ -16,49 +16,49 @@ function shakeMagic8Ball() {
 }
 
 function giveResult() {
-    let randomNumber = Math.floor(Math.random() * 8);
     const responseText = document.getElementById('response-text-2')
     const responseImg = document.getElementById('response-img')
+    let randomNumber = Math.floor(Math.random() * 8);
     switch (randomNumber) {
         case 0:
-            responseText.innerText = 'answer1'
+            responseText.innerText = 'Yes'
             responseText.classList = 'display-4 text-success'
-            responseImg.src = 'https://picsum.photos/200'
+            responseImg.src = 'img/Magic-8-Ball-Yes.png'
             break;
         case 1:
             responseText.innerText = 'answer2'
             responseText.classList = 'display-4 text-success'
-            responseImg.src = 'https://picsum.photos/200'
+            responseImg.src = ''
             break;
         case 2:
             responseText.innerText = 'answer3'
             responseText.classList = 'display-4 text-success'
-            responseImg.src = 'https://picsum.photos/200'
+            responseImg.src = ''
             break;
         case 3:
             responseText.innerText = 'answer4 text-success'
             responseText.classList = 'display-4'
-            responseImg.src = 'https://picsum.photos/200'
+            responseImg.src = ''
             break;
         case 4:
             responseText.innerText = 'answer5'
             responseText.classList = 'display-4 text-success'
-            responseImg.src = 'https://picsum.photos/200'
+            responseImg.src = ''
             break;
         case 5:
             responseText.innerText = 'answer6'
             responseText.classList = 'display-4 text-success'
-            responseImg.src = 'https://picsum.photos/200'
+            responseImg.src = ''
             break;
         case 6:
             responseText.innerText = 'answer7'
             responseText.classList = 'display-4 text-success'
-            responseImg.src = 'https://picsum.photos/200'
+            responseImg.src = ''
             break;
         case 7:
             responseText.innerText = 'answer8'
             responseText.classList = 'display-4 text-success'
-            responseImg.src = 'https://picsum.photos/200'
+            responseImg.src = ''
             break;
     }
 }

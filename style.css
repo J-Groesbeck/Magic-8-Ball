@@ -3,3 +3,12 @@ body,
 .container {
     background-color: #c9e6c0 !important;
 }
+
+footer,
+.bg-change {
+    background-color: #a9cf9d !important;
+}
+
+#response-img {
+    height: 570px;
+}

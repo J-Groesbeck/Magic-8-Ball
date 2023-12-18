@@ -14,17 +14,26 @@
 </head>
 
 <body>
-    <div id="magic-8-ball" class="container text-center my-auto">
+    <header class="bg-change text-center my-auto py-2">
         <h1>Magic Eight Ball</h1>
+    </header>
+    <div id="magic-8-ball" class="container text-center my-auto">
         <div id="response-text" class="display-4">Ask a question...</div>
         <div id="response-text-2" class="display-4"></div>
-        <img src="https://picsum.photos/200" class="img-fluid mb-4" id="response-img">
+        <img src="img/Magic-8-Ball.png" class="img-fluid mb-4" id="response-img">
         <div>
             <button onclick="shakeMagic8Ball()" class="btn btn-success">Click Here to Shake the Magic 8-Ball!</button>
         </div>
     </div>
-    <footer>
-        <!-- place footer here -->
+    <footer class="text-center py-2 fixed-bottom">
+        <div class="bg-change container">
+            <p>
+                &copy; 2023 WDPP Level 2
+            </p>
+            <p>
+                Design by Jacob Groesbeck
+            </p>
+        </div>
     </footer>
     <!-- Bootstrap JavaScript Libraries -->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
