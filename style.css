@@ -10,6 +10,6 @@ footer,
 }
 
 #response-img {
-    height: 33.75rem;
-    width: 33.75rem;
+    height: 33.75rem !important;
+    width: 33.75rem !important;
 }

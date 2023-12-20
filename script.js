@@ -26,32 +26,32 @@ function giveResult() {
             responseText.classList = 'text-success'
             break;
         case 1:
-            responseText.innerText = 'answer2'
-            responseText.classList = 'text-success'
+            responseText.innerText = 'No'
+            responseText.classList = 'text-danger'
             break;
         case 2:
-            responseText.innerText = 'answer3'
-            responseText.classList = 'text-success'
+            responseText.innerText = 'Ask Again Later'
+            responseText.classList = 'text-secondary'
             break;
         case 3:
-            responseText.innerText = 'answer4'
-            responseText.classList = 'text-success'
+            responseText.innerText = 'Maybe'
+            responseText.classList = 'text-warning'
             break;
         case 4:
-            responseText.innerText = 'answer5'
-            responseText.classList = 'text-success'
+            responseText.innerText = 'Cannot predict now'
+            responseText.classList = 'text-muted'
             break;
         case 5:
-            responseText.innerText = 'answer6'
-            responseText.classList = 'text-success'
+            responseText.innerText = "Don't count on it"
+            responseText.classList = 'text-danger'
             break;
         case 6:
-            responseText.innerText = 'answer7'
+            responseText.innerText = 'Most likely'
             responseText.classList = 'text-success'
             break;
         case 7:
-            responseText.innerText = 'answer8'
-            responseText.classList = 'text-success'
+            responseText.innerText = 'Outlook not so good'
+            responseText.classList = 'text-danger'
             break;
     }
 }
